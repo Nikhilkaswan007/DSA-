@@ -1,3 +1,13 @@
+### **PROBLEM STATEMENT**
+You are given a rod of length N and an array prices[] where prices[i] represents the price of a rod of length i+1. Your task is to determine the maximum profit you can achieve by cutting the rod into smaller lengths and selling the pieces.
+
+Write a recursive function maxProfit(int n, int[] prices) to calculate the maximum profit.
+
+Input: N = 8
+prices = [1, 5, 8, 9, 10, 17, 17, 20]
+
+Output: 22
+
 ### **Recursive Solution for Rod Cutting Problem**
 
 The problem can be solved using **recursion** by trying all possible ways to cut the rod and choosing the one that gives the maximum profit.
